@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6279D8122609DEF008C33ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6279D8022609DEF008C33ED /* AppDelegate.m */; };
+		C6279D8422609DEF008C33ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6279D8322609DEF008C33ED /* ViewController.m */; };
+		C6279D8722609DEF008C33ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6279D8522609DEF008C33ED /* Main.storyboard */; };
+		C6279D8922609DF0008C33ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6279D8822609DF0008C33ED /* Assets.xcassets */; };
+		C6279D8C22609DF0008C33ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6279D8A22609DF0008C33ED /* LaunchScreen.storyboard */; };
+		C6279D8F22609DF0008C33ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6279D8E22609DF0008C33ED /* main.m */; };
+		C6279D9922609DF0008C33ED /* LGBadgeManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6279D9822609DF0008C33ED /* LGBadgeManagementTests.m */; };
+		C6279DA422609DF0008C33ED /* LGBadgeManagementUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6279DA322609DF0008C33ED /* LGBadgeManagementUITests.m */; };
+		C6279DBD22609E2E008C33ED /* LGBadgeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C6279DB222609E2E008C33ED /* LGBadgeNode.m */; };
+		C6279DBE22609E2E008C33ED /* LGBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6279DB322609E2E008C33ED /* LGBadgeView.m */; };
+		C6279DC122609E2E008C33ED /* LGBadgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C6279DBB22609E2E008C33ED /* LGBadgeManager.m */; };
+		C6279DC222609E2E008C33ED /* LGBadgeDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = C6279DBC22609E2E008C33ED /* LGBadgeDefines.m */; };
+		C6279DC522609E4D008C33ED /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6279DC422609E4D008C33ED /* TestViewController.m */; };
+		C6279DC722609F9A008C33ED /* LGBadgeManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6279DC622609F9A008C33ED /* LGBadgeManagerTest.m */; };
+		C6279DC922609FAA008C33ED /* LGBadgeNodeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6279DC822609FAA008C33ED /* LGBadgeNodeTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6279D9522609DF0008C33ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6279D7422609DEF008C33ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6279D7B22609DEF008C33ED;
+			remoteInfo = LGBadgeManagement;
+		};
+		C6279DA022609DF0008C33ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6279D7422609DEF008C33ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6279D7B22609DEF008C33ED;
+			remoteInfo = LGBadgeManagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6279D7C22609DEF008C33ED /* LGBadgeManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGBadgeManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6279D7F22609DEF008C33ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6279D8022609DEF008C33ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6279D8222609DEF008C33ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6279D8322609DEF008C33ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6279D8622609DEF008C33ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6279D8822609DF0008C33ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6279D8B22609DF0008C33ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6279D8D22609DF0008C33ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6279D8E22609DF0008C33ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6279D9422609DF0008C33ED /* LGBadgeManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGBadgeManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6279D9822609DF0008C33ED /* LGBadgeManagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBadgeManagementTests.m; sourceTree = "<group>"; };
+		C6279D9A22609DF0008C33ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6279D9F22609DF0008C33ED /* LGBadgeManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGBadgeManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6279DA322609DF0008C33ED /* LGBadgeManagementUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBadgeManagementUITests.m; sourceTree = "<group>"; };
+		C6279DA522609DF0008C33ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6279DB222609E2E008C33ED /* LGBadgeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGBadgeNode.m; sourceTree = "<group>"; };
+		C6279DB322609E2E008C33ED /* LGBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGBadgeView.m; sourceTree = "<group>"; };
+		C6279DB422609E2E008C33ED /* LGBadgeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBadgeManager.h; sourceTree = "<group>"; };
+		C6279DB822609E2E008C33ED /* LGBadgeDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBadgeDefines.h; sourceTree = "<group>"; };
+		C6279DB922609E2E008C33ED /* LGBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBadgeView.h; sourceTree = "<group>"; };
+		C6279DBA22609E2E008C33ED /* LGBadgeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBadgeNode.h; sourceTree = "<group>"; };
+		C6279DBB22609E2E008C33ED /* LGBadgeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGBadgeManager.m; sourceTree = "<group>"; };
+		C6279DBC22609E2E008C33ED /* LGBadgeDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGBadgeDefines.m; sourceTree = "<group>"; };
+		C6279DC322609E4D008C33ED /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		C6279DC422609E4D008C33ED /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		C6279DC622609F9A008C33ED /* LGBadgeManagerTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBadgeManagerTest.m; sourceTree = "<group>"; };
+		C6279DC822609FAA008C33ED /* LGBadgeNodeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBadgeNodeTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6279D7922609DEF008C33ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6279D9122609DF0008C33ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6279D9C22609DF0008C33ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6279D7322609DEF008C33ED = {
+			isa = PBXGroup;
+			children = (
+				C6279D7E22609DEF008C33ED /* LGBadgeManagement */,
+				C6279D9722609DF0008C33ED /* LGBadgeManagementTests */,
+				C6279DA222609DF0008C33ED /* LGBadgeManagementUITests */,
+				C6279D7D22609DEF008C33ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6279D7D22609DEF008C33ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6279D7C22609DEF008C33ED /* LGBadgeManagement.app */,
+				C6279D9422609DF0008C33ED /* LGBadgeManagementTests.xctest */,
+				C6279D9F22609DF0008C33ED /* LGBadgeManagementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6279D7E22609DEF008C33ED /* LGBadgeManagement */ = {
+			isa = PBXGroup;
+			children = (
+				C6279DB122609E2E008C33ED /* Badge */,
+				C6279D7F22609DEF008C33ED /* AppDelegate.h */,
+				C6279D8022609DEF008C33ED /* AppDelegate.m */,
+				C6279D8222609DEF008C33ED /* ViewController.h */,
+				C6279D8322609DEF008C33ED /* ViewController.m */,
+				C6279DC322609E4D008C33ED /* TestViewController.h */,
+				C6279DC422609E4D008C33ED /* TestViewController.m */,
+				C6279D8522609DEF008C33ED /* Main.storyboard */,
+				C6279D8822609DF0008C33ED /* Assets.xcassets */,
+				C6279D8A22609DF0008C33ED /* LaunchScreen.storyboard */,
+				C6279D8D22609DF0008C33ED /* Info.plist */,
+				C6279D8E22609DF0008C33ED /* main.m */,
+			);
+			path = LGBadgeManagement;
+			sourceTree = "<group>";
+		};
+		C6279D9722609DF0008C33ED /* LGBadgeManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6279D9822609DF0008C33ED /* LGBadgeManagementTests.m */,
+				C6279D9A22609DF0008C33ED /* Info.plist */,
+			);
+			path = LGBadgeManagementTests;
+			sourceTree = "<group>";
+		};
+		C6279DA222609DF0008C33ED /* LGBadgeManagementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6279DA322609DF0008C33ED /* LGBadgeManagementUITests.m */,
+				C6279DA522609DF0008C33ED /* Info.plist */,
+			);
+			path = LGBadgeManagementUITests;
+			sourceTree = "<group>";
+		};
+		C6279DB122609E2E008C33ED /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				C6279DBA22609E2E008C33ED /* LGBadgeNode.h */,
+				C6279DB222609E2E008C33ED /* LGBadgeNode.m */,
+				C6279DB922609E2E008C33ED /* LGBadgeView.h */,
+				C6279DB322609E2E008C33ED /* LGBadgeView.m */,
+				C6279DB422609E2E008C33ED /* LGBadgeManager.h */,
+				C6279DBB22609E2E008C33ED /* LGBadgeManager.m */,
+				C6279DB822609E2E008C33ED /* LGBadgeDefines.h */,
+				C6279DBC22609E2E008C33ED /* LGBadgeDefines.m */,
+				C6279DB522609E2E008C33ED /* Tests */,
+			);
+			path = Badge;
+			sourceTree = "<group>";
+		};
+		C6279DB522609E2E008C33ED /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C6279DC622609F9A008C33ED /* LGBadgeManagerTest.m */,
+				C6279DC822609FAA008C33ED /* LGBadgeNodeTest.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6279D7B22609DEF008C33ED /* LGBadgeManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6279DA822609DF0008C33ED /* Build configuration list for PBXNativeTarget "LGBadgeManagement" */;
+			buildPhases = (
+				C6279D7822609DEF008C33ED /* Sources */,
+				C6279D7922609DEF008C33ED /* Frameworks */,
+				C6279D7A22609DEF008C33ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGBadgeManagement;
+			productName = LGBadgeManagement;
+			productReference = C6279D7C22609DEF008C33ED /* LGBadgeManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6279D9322609DF0008C33ED /* LGBadgeManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6279DAB22609DF0008C33ED /* Build configuration list for PBXNativeTarget "LGBadgeManagementTests" */;
+			buildPhases = (
+				C6279D9022609DF0008C33ED /* Sources */,
+				C6279D9122609DF0008C33ED /* Frameworks */,
+				C6279D9222609DF0008C33ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6279D9622609DF0008C33ED /* PBXTargetDependency */,
+			);
+			name = LGBadgeManagementTests;
+			productName = LGBadgeManagementTests;
+			productReference = C6279D9422609DF0008C33ED /* LGBadgeManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6279D9E22609DF0008C33ED /* LGBadgeManagementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6279DAE22609DF0008C33ED /* Build configuration list for PBXNativeTarget "LGBadgeManagementUITests" */;
+			buildPhases = (
+				C6279D9B22609DF0008C33ED /* Sources */,
+				C6279D9C22609DF0008C33ED /* Frameworks */,
+				C6279D9D22609DF0008C33ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6279DA122609DF0008C33ED /* PBXTargetDependency */,
+			);
+			name = LGBadgeManagementUITests;
+			productName = LGBadgeManagementUITests;
+			productReference = C6279D9F22609DF0008C33ED /* LGBadgeManagementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6279D7422609DEF008C33ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Alexgao;
+				TargetAttributes = {
+					C6279D7B22609DEF008C33ED = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C6279D9322609DF0008C33ED = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C6279D7B22609DEF008C33ED;
+					};
+					C6279D9E22609DF0008C33ED = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C6279D7B22609DEF008C33ED;
+					};
+				};
+			};
+			buildConfigurationList = C6279D7722609DEF008C33ED /* Build configuration list for PBXProject "LGBadgeManagement" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6279D7322609DEF008C33ED;
+			productRefGroup = C6279D7D22609DEF008C33ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6279D7B22609DEF008C33ED /* LGBadgeManagement */,
+				C6279D9322609DF0008C33ED /* LGBadgeManagementTests */,
+				C6279D9E22609DF0008C33ED /* LGBadgeManagementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6279D7A22609DEF008C33ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6279D8C22609DF0008C33ED /* LaunchScreen.storyboard in Resources */,
+				C6279D8922609DF0008C33ED /* Assets.xcassets in Resources */,
+				C6279D8722609DEF008C33ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6279D9222609DF0008C33ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6279D9D22609DF0008C33ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6279D7822609DEF008C33ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6279DBD22609E2E008C33ED /* LGBadgeNode.m in Sources */,
+				C6279D8422609DEF008C33ED /* ViewController.m in Sources */,
+				C6279DBE22609E2E008C33ED /* LGBadgeView.m in Sources */,
+				C6279DC522609E4D008C33ED /* TestViewController.m in Sources */,
+				C6279DC122609E2E008C33ED /* LGBadgeManager.m in Sources */,
+				C6279D8F22609DF0008C33ED /* main.m in Sources */,
+				C6279DC222609E2E008C33ED /* LGBadgeDefines.m in Sources */,
+				C6279D8122609DEF008C33ED /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6279D9022609DF0008C33ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6279DC922609FAA008C33ED /* LGBadgeNodeTest.m in Sources */,
+				C6279DC722609F9A008C33ED /* LGBadgeManagerTest.m in Sources */,
+				C6279D9922609DF0008C33ED /* LGBadgeManagementTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6279D9B22609DF0008C33ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6279DA422609DF0008C33ED /* LGBadgeManagementUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6279D9622609DF0008C33ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6279D7B22609DEF008C33ED /* LGBadgeManagement */;
+			targetProxy = C6279D9522609DF0008C33ED /* PBXContainerItemProxy */;
+		};
+		C6279DA122609DF0008C33ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6279D7B22609DEF008C33ED /* LGBadgeManagement */;
+			targetProxy = C6279DA022609DF0008C33ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6279D8522609DEF008C33ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6279D8622609DEF008C33ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6279D8A22609DF0008C33ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6279D8B22609DF0008C33ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6279DA622609DF0008C33ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6279DA722609DF0008C33ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6279DA922609DF0008C33ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGBadgeManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alexgao.LGBadgeManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6279DAA22609DF0008C33ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGBadgeManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alexgao.LGBadgeManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6279DAC22609DF0008C33ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGBadgeManagementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alexgao.LGBadgeManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGBadgeManagement.app/LGBadgeManagement";
+			};
+			name = Debug;
+		};
+		C6279DAD22609DF0008C33ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGBadgeManagementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alexgao.LGBadgeManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGBadgeManagement.app/LGBadgeManagement";
+			};
+			name = Release;
+		};
+		C6279DAF22609DF0008C33ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGBadgeManagementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alexgao.LGBadgeManagementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LGBadgeManagement;
+			};
+			name = Debug;
+		};
+		C6279DB022609DF0008C33ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGBadgeManagementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alexgao.LGBadgeManagementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LGBadgeManagement;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6279D7722609DEF008C33ED /* Build configuration list for PBXProject "LGBadgeManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6279DA622609DF0008C33ED /* Debug */,
+				C6279DA722609DF0008C33ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6279DA822609DF0008C33ED /* Build configuration list for PBXNativeTarget "LGBadgeManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6279DA922609DF0008C33ED /* Debug */,
+				C6279DAA22609DF0008C33ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6279DAB22609DF0008C33ED /* Build configuration list for PBXNativeTarget "LGBadgeManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6279DAC22609DF0008C33ED /* Debug */,
+				C6279DAD22609DF0008C33ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6279DAE22609DF0008C33ED /* Build configuration list for PBXNativeTarget "LGBadgeManagementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6279DAF22609DF0008C33ED /* Debug */,
+				C6279DB022609DF0008C33ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6279D7422609DEF008C33ED /* Project object */;
+}
